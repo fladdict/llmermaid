@@ -33,3 +33,31 @@ stateDiagram-v2
     note right of Task3: Example of an Interdependent Task
   }
 ```
+
+## Example
+
+
+
+```mermaid
+---
+title: Research about Nintendo and generate a report.
+---
+stateDiagram-v2
+[*] --> A
+A --> B
+B --> C
+C --> B
+C --> D
+D --> E
+E --> F
+E --> B : Add extra search.
+E --> D : Add extra info.
+F --> [*]
+
+A: Write down 3 topic that should be searched.
+B: Search one of the opic and summarize.
+C: Repeat until complete
+D: Generate final report
+E: Review final report. Describe how to make report better.
+F: Complete
+```
