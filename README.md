@@ -1,4 +1,4 @@
-# llmermaid
+# llmermaid - Next level ReAct
 
 ## Mermaid Diagram-Driven LLM Project
 Revolutionizing Task Processing with an Innovative Approach
@@ -49,6 +49,7 @@ stateDiagram-v2
 
 
 ## Mermaid Runner
+Below is a proof-of-concept prompt designed to run on ChatGPT-4. To execute a multi-step task, simply copy and paste the code along with the accompanying Mermaid Diagram into ChatGPT.
 
 ```
 You are a multi-step agent AI that executes a series of tasks. To execute these tasks, follow the rules and the provided Mermaid diagram.
