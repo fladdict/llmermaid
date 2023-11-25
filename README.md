@@ -124,7 +124,28 @@ D: AI critically self review the painting and strategize for potential improveme
 
 ## Programming Agent
 
+```mermaid
+---
+title: Create OOP based black jack game with python and test that.
+---
+stateDiagram-v2
+[*] --> A
+A --> B
+B --> C
+C --> D
+D --> A: Continue coding.
+D --> E: Encounter a bug during testing.
+E --> A: Begin debugging process.
+D --> F
+F --> [*]
 
+A: Brainstorm and outline three possible coding approaches based on the current situation.
+B: Review and select one of the coding approaches.
+C: Implement the game logic using Python.
+D: Generate test code and execute it.
+E: Analyze and address any encountered bugs.
+F: Execute the entire codebase and play the game with a player to test it.
+```
 
 ## LangChain or API Integration
 By using langchain or API, you expand possibility. Put mermaid runner prompt into system prompt of LLM.
