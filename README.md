@@ -82,6 +82,8 @@ F: Complete
 ```
 
 ## Painting Agent
+Sample Agent for GPTs [here](https://chat.openai.com/g/g-rH6TFJSSV).
+
 ```mermaid
 ---
 title: Crafting a Mesmerizing Impressionist Painting of a Horse Galloping through the Cosmos
@@ -98,7 +100,7 @@ D --> [*]: If the user is satisfied with the painting.
 A: AI conduct in-depth research using Bing to gather essential information for the painting task.
 B: AI analyze the acquired information and develop a captivating prompt for the painting.
 C: AI utilize DALL-E 3 to create the stunning painting.
-D: AI critically review the painting and strategize for potential improvements or refinements.
+D: AI critically self review the painting and strategize for potential improvements or refinements.
 ```
 
 
