@@ -1,4 +1,4 @@
-# LLM-ermaid prompting - Next level ReAct
+# LLMermaid prompting - SOTA agent prompting.
 
 Revolutionizing Task Processing with an Innovative Approach.
 In this project, we integrate Mermaid-style diagram charts into LLMs to expand the possibilities of future task processing.
