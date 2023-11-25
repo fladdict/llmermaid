@@ -50,9 +50,9 @@ E --> D : Add extra info.
 F --> [*]
 
 A: Write down 3 topic that should be searched.
-B: Search one of the topic and summarize.
+B: Search one of the topic and summarize. Save the result into ".txt" file.
 C: Repeat until complete
-D: Generate final report
+D: Generate well documented final report with saved files.
 E: Review final report. Describe how to make report better.
 F: Complete
 ```
@@ -74,9 +74,9 @@ E --> D : Add extra info.
 F --> [*]
 
 A: Write down 3 topic that should be searched.
-B: Search one of the topic and summarize.
+B: Search one of the topic and summarize. Save the result into ".txt" file.
 C: Repeat until complete
-D: Generate final report
+D: Generate well documented final report with saved files.
 E: Review final report. Describe how to make report better.
 F: Complete
 ```
@@ -85,6 +85,25 @@ F: Complete
 Sample Agent for GPTs [here](https://chat.openai.com/g/g-rH6TFJSSV).
 
 ```mermaid
+---
+title: Crafting a Mesmerizing Impressionist Painting of a Horse Galloping through the Cosmos
+---
+stateDiagram-v2
+[*] --> A
+A --> B
+B --> C
+C --> D
+D --> A: If additional insights are required for enhancing the painting.
+D --> B: If there's scope for refining the prompt for better results.
+D --> [*]: If the user is satisfied with the painting.
+
+A: AI conduct in-depth research using Bing to gather essential information for the painting task.
+B: AI analyze the acquired information and develop a captivating prompt for the painting.
+C: AI utilize DALL-E 3 to create the stunning painting.
+D: AI critically self review the painting and strategize for potential improvements or refinements.
+```
+
+```
 ---
 title: Crafting a Mesmerizing Impressionist Painting of a Horse Galloping through the Cosmos
 ---
