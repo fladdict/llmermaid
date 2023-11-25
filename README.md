@@ -5,7 +5,7 @@ In this project, we integrate Mermaid-style diagram charts into LLMs to expand t
 
 Using Mermaid markdown diagrams, known for their intuitive and easy-to-understand visual representations, we aim to clearly delineate complex task processing, branching, and loop operations. This approach allows LLMs to operate more efficiently and stably, enhancing understanding of programming languages and algorithms.
 
-## Key Features of the Project:
+# Key Features of the Project:
 
 * Intuitive Diagrams: Diagrams created with Mermaid notation provide a clear, at-a-glance understanding of processes.
 * Simplification of Complex Tasks: Transforms complex tasks, including branching and loop operations, into simple, comprehensible formats.
@@ -14,7 +14,7 @@ Using Mermaid markdown diagrams, known for their intuitive and easy-to-understan
 
 
 
-## Mermaid Runner
+# Mermaid Runner
 Below is a proof-of-concept prompt designed to run on ChatGPT4. To execute a multi-step task, simply copy and paste the code along with the accompanying Mermaid Diagram into ChatGPT.
 Or put the prompt into custom instruction.
 
@@ -29,10 +29,10 @@ You are a multi-step agent AI that executes a series of tasks. To execute these 
 # Mermaid Diagram
 ```
 
-## Example
+# Example
 
 
-### Research Task
+## Research Task
 ```mermaid
 ---
 title: Research about Nintendo and generate a report.
@@ -81,21 +81,24 @@ E: Review final report. Describe how to make report better.
 F: Complete
 ```
 
-## Implement parameter or function calling into mermaid
+## Painting Agent
 ```mermaid
 ---
-title: Drawing a Stunning Impressionist Painting
+title: Drawing a Stunning Impressionist Painting of a running horse in the universe.
 ---
 stateDiagram-v2
 [*] --> A
 A --> B
 B --> C
-B --> A
-C --> [*]
+C --> D
+D --> A: If AI need more info for better painting.
+D --> B: If there is a room for better prompting.
+D --> [*]: If user satisfied painting.
 
-A: Conduct a search on Impressionism using keywords "Impressionism, Painting" with Bing
-B: Analyze information about Impressionism
-C: Create an Impressionist painting of a running horse using DALL-E 3
+A: Serch helpful info to complete task with Bing
+B: Analyze current info and plan stunning prompt for painting.
+C: Draw an painting using DALL-E 3
+D: Review painting and plan to make it better.
 ```
 
 
