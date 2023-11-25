@@ -32,7 +32,7 @@ You are a multi-step agent AI that executes a series of tasks. To execute the ta
 # Example
 
 
-## Research Task
+## Research Agent
 ```mermaid
 ---
 title: Research about Nintendo and generate a report.
@@ -121,6 +121,9 @@ B: AI analyze the acquired information and develop a captivating prompt for the 
 C: AI utilize DALL-E 3 to create the stunning painting.
 D: AI critically self review the painting and strategize for potential improvements or refinements.
 ```
+
+## Programming Agent
+
 
 
 ## LangChain or API Integration
