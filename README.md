@@ -84,21 +84,21 @@ F: Complete
 ## Painting Agent
 ```mermaid
 ---
-title: Drawing a Stunning Impressionist Painting of a running horse in the universe.
+title: Crafting a Mesmerizing Impressionist Painting of a Horse Galloping through the Cosmos
 ---
 stateDiagram-v2
 [*] --> A
 A --> B
 B --> C
 C --> D
-D --> A: If AI need more info for better painting.
-D --> B: If there is a room for better prompting.
-D --> [*]: If user satisfied painting.
+D --> A: If additional insights are required for enhancing the painting.
+D --> B: If there's scope for refining the prompt for better results.
+D --> [*]: If the user is satisfied with the painting.
 
-A: Serch helpful info to complete task with Bing
-B: Analyze current info and plan stunning prompt for painting.
-C: Draw an painting using DALL-E 3
-D: Review painting and plan to make it better.
+A: Conduct in-depth research using Bing to gather essential information for the painting task.
+B: Analyze the acquired information and develop a captivating prompt for the painting.
+C: Utilize DALL-E 3 to create the stunning painting.
+D: Critically review the painting and strategize for potential improvements or refinements.
 ```
 
 
