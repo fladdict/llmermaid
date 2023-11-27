@@ -1,6 +1,6 @@
 # LLMermaid prompting - Flowchart driven LLM control.
 
-In our project, we're incorporating diagram markdown, known as Mermaid diagram charts, into Large Language Models (LLMs). This integration is designed to broaden the scope of task processing in the future.
+In our project, we're incorporating diagram markdown, known as [Mermaid diagram charts](https://mermaid-js.github.io/mermaid/#/), into Large Language Models (LLMs). This integration is designed to broaden the scope of task processing in the future.
 
 By utilizing Mermaid diagrams, our goal is to clearly map out intricate task processing, including branching and looping operations. This method enables LLMs to function more effectively and reliably, thereby improving comprehension of programming languages and algorithms.
 
@@ -177,7 +177,7 @@ E --> A: Begin debugging process.
 D --> F
 F --> [*]
 
-A: Brainstorm and outline three possible coding approaches based on the current situation.
+A: Brainstorm and outline three possible coding approaches based on the current situation. Use Bing if needed.
 B: Review and select one of the coding approaches.
 C: Implement the game logic using Code Interpreter.
 D: Generate test code and execute it.
