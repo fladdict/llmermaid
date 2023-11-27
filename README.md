@@ -14,7 +14,7 @@ A --> C
 B --> C
 
 A: LLM
-B: Mermaid markdown diagram.
+B: Flowchart markdown.
 C: Stable LLM prompting for agent.
 ```
 
@@ -125,14 +125,18 @@ stateDiagram-v2
 A --> B
 B --> C
 C --> D
-D --> A: If additional insights are required for enhancing the painting.
-D --> B: If there's scope for refining the prompt for better results.
-D --> [*]: If the user is satisfied with the painting.
+D --> E
+E --> F
+F --> A: If additional insights are required for enhancing the painting.
+F --> C: If there's scope for refining the prompt for better results.
+F --> [*]: If the user is satisfied with the painting.
 
 A: AI conduct in-depth research using Bing to gather essential information for the painting task.
-B: AI analyze the acquired information and develop a captivating prompt for the painting.
-C: AI utilize DALL-E 3 to create the stunning painting.
-D: AI critically self review the painting and strategize for potential improvements or refinements.
+B: Wait for user input.
+C: AI analyze the acquired information and develop a captivating prompt for the painting.
+D: AI utilize DALL-E 3 to create the masterpiece painting.
+E: AI critically self review the painting and strategize for potential improvements or refinements.
+F: Wait for user input.
 ```
 
 ```
