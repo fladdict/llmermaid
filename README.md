@@ -1,9 +1,40 @@
-# LLMermaid prompting - SOTA agent prompting.
+# LLMermaid prompting - Flowchart driven LLM control.
 
 Revolutionizing Task Processing with an Innovative Approach.
 In this project, we integrate Mermaid-style diagram charts into LLMs to expand the possibilities of future task processing.
 
 Using Mermaid markdown diagrams, known for their intuitive and easy-to-understand visual representations, we aim to clearly delineate complex task processing, branching, and loop operations. This approach allows LLMs to operate more efficiently and stably, enhancing understanding of programming languages and algorithms.
+
+```mermaid
+---
+title: Research about Nintendo and generate a report.
+---
+stateDiagram-v2
+A --> C
+B --> C
+
+A: LLM
+B: Mermaid markdown diagram.
+C: Stable LLM prompting for agent.
+```
+
+# How it works
+```mermaid
+---
+title: How it works.
+---
+stateDiagram-v2
+[*] --> A
+A --> B
+B --> C
+C --> C: Repeat until complete.
+C --> B: Dynamic diagram update.
+C --> [*]
+
+A: User Request
+B: LLM breakdown reqest into sub tasks with Mermaid Diagram.
+C: LLM interprets Mermaid Diagram step by step.
+```
 
 # Key Features of the Project:
 
