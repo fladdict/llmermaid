@@ -142,7 +142,7 @@ F --> A: If additional insights are required for enhancing the painting.
 F --> C: If there's scope for refining the prompt for better results.
 F --> [*]: If the user is satisfied with the painting.
 
-A: AI conduct in-depth research using Bing to gather essential information for the painting task.
+A: AI searches with Bing to gather essential information for the painting task.
 B: Wait for user input.
 C: AI analyze the acquired information and develop a captivating prompt for the painting.
 D: AI utilize DALL-E 3 to create the masterpiece painting.
@@ -165,7 +165,7 @@ F --> A: If additional insights are required for enhancing the painting.
 F --> C: If there's scope for refining the prompt for better results.
 F --> [*]: If the user is satisfied with the painting.
 
-A: AI conduct in-depth research using Bing to gather essential information for the painting task.
+A: AI searches with Bing to gather essential information for the painting task.
 B: Wait for user input.
 C: AI analyze the acquired information and develop a captivating prompt for the painting.
 D: AI utilize DALL-E 3 to create the masterpiece painting.
