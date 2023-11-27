@@ -1,9 +1,8 @@
 # LLMermaid prompting - Flowchart driven LLM control.
 
-Revolutionizing Task Processing with an Innovative Approach.
-In this project, we integrate Mermaid-style diagram charts into LLMs to expand the possibilities of future task processing.
+In our project, we're incorporating diagram markdown, known as Mermaid diagram charts, into Large Language Models (LLMs). This integration is designed to broaden the scope of task processing in the future.
 
-Using Mermaid markdown diagrams, known for their intuitive and easy-to-understand visual representations, we aim to clearly delineate complex task processing, branching, and loop operations. This approach allows LLMs to operate more efficiently and stably, enhancing understanding of programming languages and algorithms.
+By utilizing Mermaid diagrams, our goal is to clearly map out intricate task processing, including branching and looping operations. This method enables LLMs to function more effectively and reliably, thereby improving comprehension of programming languages and algorithms.
 
 ```mermaid
 ---
@@ -157,7 +156,7 @@ C: AI utilize DALL-E 3 to create the stunning painting.
 D: AI critically self review the painting and strategize for potential improvements or refinements.
 ```
 
-## Programming Agent
+# Programming Agent
 
 ```mermaid
 ---
@@ -176,14 +175,39 @@ F --> [*]
 
 A: Brainstorm and outline three possible coding approaches based on the current situation.
 B: Review and select one of the coding approaches.
-C: Implement the game logic using Python.
+C: Implement the game logic using Code Interpreter.
 D: Generate test code and execute it.
 E: Analyze and address any encountered bugs.
 F: Execute the entire codebase and play the game with a player to test it.
 ```
 
-## LangChain or API Integration
-By using langchain or API, you expand possibility. Put mermaid runner prompt into system prompt of LLM.
+# LangChain or API Integration
+sample will come soon.
+
+
+## FAQ
+Q:　What　is　LLMermaid?
+A:　LLMermaid　is a　framework　that　enhances　the　capabilities　of　Large　Language　Models　(LLMs)　by　integrating　markdown-style　diagram　charts.　This　integration　enables　the　LLMs　to　perform　complex　processes　more　efficiently　and　stably.
+
+Q:　What　is　a　Mermaid　Diagram?
+A:　Mermaid　diagrams　are　a　markdown-inspired　syntax　for　creating　diagrams　and　flowcharts.　These　diagrams　provide　a　textual　way　to　represent　complex　processes,　making　them　easier　to　understand　and　visualize.　For　more　information,　visit　[Mermaid's　official　site](https://mermaid-js.github.io/mermaid/#/).
+
+Q:　How　does　LLMermaid　work?
+A:　By　defining　Mermaid　execution　prompts　within　custom　instructions　or　system　prompts,　LLMermaid　allows　LLMs　to　act　according　to　the　specified　flowcharts.　This　structured　approach　guides　the　LLMs　in　processing　tasks　more　effectively.
+
+Q:　Is　LLMermaid　a　framework　specifically　for　ChatGPT?
+A:　LLMermaid　can　be　used　with　a　variety　of　tools,　including　LangChain　and　Python,　allowing　for　the　creation　of　more　sophisticated　agents,　beyond　just　ChatGPT　implementations.
+
+Q:　Does　LLMermaid　only　execute　pre-designed　flowcharts?
+A:　No,　LLMermaid　also　allows　for　dynamic　design　and　updating　of　flowcharts　directly　on　the　LLM　platform,　enabling　real-time　modifications　and　adaptations.
+
+Q:　How　can　I　create　complex　LLMermaid　diagrams?
+A:　To　create　complex　diagrams,　embed　the　desired　parameters,　function　calls,　and　prompts　within　the　diagram　using　formats　like　JSON.　This　allows　for　a　more　detailed　and　functional　design.
+
+Q:　Where　can　I　find　sample　LangChain　code　for　LLMermaid?
+A:　Sample　code　and　further　documentation　will　be　available　soon.
+
+
 
 
 
