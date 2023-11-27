@@ -45,7 +45,7 @@ C: LLM interprets Mermaid Diagram step by step.
 
 
 
-# Mermaid Runner
+# Mermaid Interpreter
 Below is a proof-of-concept prompt designed to run on ChatGPT4. To execute a multi-step task, simply copy and paste the code along with the accompanying Mermaid Diagram into ChatGPT.
 Or put the prompt into custom instruction.
 
