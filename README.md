@@ -243,3 +243,6 @@ A: To create complex diagrams, embed the desired parameters, function calls, and
 
 ### Q: Where can I find sample LangChain code for LLMermaid?
 A: Sample code and further documentation will be available soon.
+
+### Q: Any reserch paper about LLMermaid?
+A: I'm not academic guy, so no research paper. Looking for someone who write paper about this.
