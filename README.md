@@ -146,21 +146,25 @@ stateDiagram-v2
 A --> B
 B --> C
 C --> D
-D --> A: If additional insights are required for enhancing the painting.
-D --> B: If there's scope for refining the prompt for better results.
-D --> [*]: If the user is satisfied with the painting.
+D --> E
+E --> F
+F --> A: If additional insights are required for enhancing the painting.
+F --> C: If there's scope for refining the prompt for better results.
+F --> [*]: If the user is satisfied with the painting.
 
 A: AI conduct in-depth research using Bing to gather essential information for the painting task.
-B: AI analyze the acquired information and develop a captivating prompt for the painting.
-C: AI utilize DALL-E 3 to create the stunning painting.
-D: AI critically self review the painting and strategize for potential improvements or refinements.
+B: Wait for user input.
+C: AI analyze the acquired information and develop a captivating prompt for the painting.
+D: AI utilize DALL-E 3 to create the masterpiece painting.
+E: AI critically self review the painting and strategize for potential improvements or refinements.
+F: Wait for user input.
 ```
 
 # Programming Agent
 
 ```mermaid
 ---
-title: Create OOP based black jack game with python and test that.
+title: Create OOP based black jack game with python and test that with code interpreter.
 ---
 stateDiagram-v2
 [*] --> A
@@ -183,27 +187,6 @@ F: Execute the entire codebase and play the game with a player to test it.
 
 # LangChain or API Integration
 sample will come soon.
-
-Q: What is LLMermaid?
-A: LLMermaid is a framework that allows complex operations to be performed stably by passing markdown-style diagram charts to an LLM (Language Learning Model).
-
-Q: What is a Mermaid Diagram?
-A: [Insert a description about Mermaid markdown syntax here], and include a link to the Mermaid website for further information.
-
-Q: How does LLMermaid work?
-A: By defining Mermaid execution prompts in custom instructions or system prompts, the LLM is programmed to act according to the given flowchart.
-
-Q: Is LLMermaid a framework specifically for ChatGPT?
-A: While it can be used with LangChain and Python to create more advanced agents, it is not limited to ChatGPT.
-
-Q: Does LLMermaid only execute pre-made flowcharts?
-A: LLMermaid allows for the dynamic design and updating of flowcharts on the LLM platform, not just the execution of pre-made ones.
-
-Q: How do I create complex LLMermaid diagrams?
-A: Embed desired parameters, function calls, and prompts in the diagram using formats like JSON to tailor it for specific tasks.
-
-Q: Where can I find sample LangChain code for LLMermaid?
-A: Sample code will be available soon.
 
 
 # FAQ
