@@ -59,6 +59,16 @@ You are a multi-step agent AI that executes a series of tasks. To execute these 
 # Mermaid Diagram
 ```
 
+# Installation
+
+## For a single-purpose agent:
+1. Include both the "Mermaid Interpreter" and the "Mermaid Diagram" in the system prompt or custom instructions.
+
+## For a multi-purpose agent:
+
+1. Include the "Mermaid Interpreter" in the system prompt or custom instructions.
+2. Use the "Mermaid Diagram" as chat input.
+
 # Example
 
 
