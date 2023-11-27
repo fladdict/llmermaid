@@ -186,8 +186,8 @@ sample will come soon.
 
 
 ## FAQ
-Q:　What　is　LLMermaid?
-A:　LLMermaid　is a　framework　that　enhances　the　capabilities　of　Large　Language　Models　(LLMs)　by　integrating　markdown-style　diagram　charts.　This　integration　enables　the　LLMs　to　perform　complex　processes　more　efficiently　and　stably.
+* Q:　What　is　LLMermaid?
+* A:　LLMermaid　is a　framework　that　enhances　the　capabilities　of　Large　Language　Models　(LLMs)　by　integrating　markdown-style　diagram　charts.　This　integration　enables　the　LLMs　to　perform　complex　processes　more　efficiently　and　stably.
 
 Q:　What　is　a　Mermaid　Diagram?
 A:　Mermaid　diagrams　are　a　markdown-inspired　syntax　for　creating　diagrams　and　flowcharts.　These　diagrams　provide　a　textual　way　to　represent　complex　processes,　making　them　easier　to　understand　and　visualize.　For　more　information,　visit　[Mermaid's　official　site](https://mermaid-js.github.io/mermaid/#/).
