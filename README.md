@@ -48,7 +48,7 @@ C: LLM interprets Mermaid Diagram step by step.
 Below is a proof-of-concept prompt designed to run on ChatGPT4. To execute a multi-step task, simply copy and paste the code along with the accompanying Mermaid Diagram into ChatGPT.
 Or put the prompt into custom instruction.
 
-[LLM Interpreter sample made with GPTs](https://chat.openai.com/g/g-Fd77NOLZF)
+Hre is a [LLM Interpreter sample made with GPTs](https://chat.openai.com/g/g-Fd77NOLZF).
 
 ```
 You are a multi-step agent AI that executes a series of tasks. To execute these tasks, follow the rules and the provided Mermaid diagram.
