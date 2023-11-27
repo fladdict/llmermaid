@@ -184,30 +184,46 @@ F: Execute the entire codebase and play the game with a player to test it.
 # LangChain or API Integration
 sample will come soon.
 
+Q: What is LLMermaid?
+A: LLMermaid is a framework that allows complex operations to be performed stably by passing markdown-style diagram charts to an LLM (Language Learning Model).
 
-## FAQ
-* Q:　What　is　LLMermaid?
-* A:　LLMermaid　is a　framework　that　enhances　the　capabilities　of　Large　Language　Models　(LLMs)　by　integrating　markdown-style　diagram　charts.　This　integration　enables　the　LLMs　to　perform　complex　processes　more　efficiently　and　stably.
+Q: What is a Mermaid Diagram?
+A: [Insert a description about Mermaid markdown syntax here], and include a link to the Mermaid website for further information.
 
-Q:　What　is　a　Mermaid　Diagram?
-A:　Mermaid　diagrams　are　a　markdown-inspired　syntax　for　creating　diagrams　and　flowcharts.　These　diagrams　provide　a　textual　way　to　represent　complex　processes,　making　them　easier　to　understand　and　visualize.　For　more　information,　visit　[Mermaid's　official　site](https://mermaid-js.github.io/mermaid/#/).
+Q: How does LLMermaid work?
+A: By defining Mermaid execution prompts in custom instructions or system prompts, the LLM is programmed to act according to the given flowchart.
 
-Q:　How　does　LLMermaid　work?
-A:　By　defining　Mermaid　execution　prompts　within　custom　instructions　or　system　prompts,　LLMermaid　allows　LLMs　to　act　according　to　the　specified　flowcharts.　This　structured　approach　guides　the　LLMs　in　processing　tasks　more　effectively.
+Q: Is LLMermaid a framework specifically for ChatGPT?
+A: While it can be used with LangChain and Python to create more advanced agents, it is not limited to ChatGPT.
 
-Q:　Is　LLMermaid　a　framework　specifically　for　ChatGPT?
-A:　LLMermaid　can　be　used　with　a　variety　of　tools,　including　LangChain　and　Python,　allowing　for　the　creation　of　more　sophisticated　agents,　beyond　just　ChatGPT　implementations.
+Q: Does LLMermaid only execute pre-made flowcharts?
+A: LLMermaid allows for the dynamic design and updating of flowcharts on the LLM platform, not just the execution of pre-made ones.
 
-Q:　Does　LLMermaid　only　execute　pre-designed　flowcharts?
-A:　No,　LLMermaid　also　allows　for　dynamic　design　and　updating　of　flowcharts　directly　on　the　LLM　platform,　enabling　real-time　modifications　and　adaptations.
+Q: How do I create complex LLMermaid diagrams?
+A: Embed desired parameters, function calls, and prompts in the diagram using formats like JSON to tailor it for specific tasks.
 
-Q:　How　can　I　create　complex　LLMermaid　diagrams?
-A:　To　create　complex　diagrams,　embed　the　desired　parameters,　function　calls,　and　prompts　within　the　diagram　using　formats　like　JSON.　This　allows　for　a　more　detailed　and　functional　design.
-
-Q:　Where　can　I　find　sample　LangChain　code　for　LLMermaid?
-A:　Sample　code　and　further　documentation　will　be　available　soon.
+Q: Where can I find sample LangChain code for LLMermaid?
+A: Sample code will be available soon.
 
 
+# FAQ
+### Q: What is LLMermaid?
+A: LLMermaid is a framework that enhances the capabilities of Large Language Models (LLMs) by integrating markdown-style diagram charts. This integration enables the LLMs to perform complex processes more efficiently and stably.
 
+### Q: What is a Mermaid Diagram?
+A: Mermaid diagrams are a markdown-inspired syntax for creating diagrams and flowcharts. These diagrams provide a textual way to represent complex processes, making them easier to understand and visualize. For more information, visit [Mermaid's official site](https://mermaid-js.github.io/mermaid/#/).
 
+### Q: How does LLMermaid work?
+A: By defining Mermaid execution prompts within custom instructions or system prompts, LLMermaid allows LLMs to act according to the specified flowcharts. This structured approach guides the LLMs in processing tasks more effectively.
 
+### Q: Is LLMermaid a framework specifically for ChatGPT?
+A: LLMermaid can be used with a variety of tools, including LangChain and Python, allowing for the creation of more sophisticated agents, beyond just ChatGPT implementations.
+
+### Q: Does LLMermaid only execute pre-designed flowcharts?
+A: No, LLMermaid also allows for dynamic design and updating of flowcharts directly on the LLM platform, enabling real-time modifications and adaptations.
+
+### Q: How can I create complex LLMermaid diagrams?
+A: To create complex diagrams, embed the desired parameters, function calls, and prompts within the diagram using formats like JSON. This allows for a more detailed and functional design.
+
+### Q: Where can I find sample LangChain code for LLMermaid?
+A: Sample code and further documentation will be available soon.
