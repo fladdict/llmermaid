@@ -13,8 +13,8 @@ A --> C
 B --> C
 
 A: LLM
-B: Flowchart markdown.
-C: Stable LLM prompting for agent.
+B: Flowchart markdown instructions.
+C: Stable multi step agent.
 ```
 
 # How it works
